@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Prata&family=Roboto+Condensed:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*header nav bar css--------------------*/
+.navbar-list,.drop-nav{
+    font-family: 'Pattaya', sans-serif;
+}
+.navbar-list li{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.navbar-list li a{
+    color:#000 !important;
+}
+
+.navbar-list li:last-child{
+    margin-right: 0;
+}
+.navbar-list li a:hover{
+    position: relative;
+    border-style: solid;
+    border-radius: 20%;
+    border-color: lightblue;
+    width: fit-content;
+    color:rgb(211, 224, 18) !important;
+}
+/*css of banner start*/
+.abhishek_p{
+    position: relative !important;
+    background-image: url('../images/abhishek.jpg');
+    background-size: cover;
+    height:550px;
+    min-width: 100%;
+}
+.text-block h1{
+    position: relative;
+    top:5rem;
+    color:black;
+    padding-left:10px;
+    font-family: 'Prata', serif;
+    font-size: 55px;
+   
+  }
+  .text-block p{
+    position: relative;
+    top:6rem;
+    color:black;
+    padding-left:10px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+  }
+/*------------------------About me section -------------------------*/
+.about_me{
+    margin-top: 60px;
+}
+.about_me_title h2{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 11px 5px rgb(47, 136, 151);
+    font-family: 'Pattaya', sans-serif;
+}
+.about_me_title p{
+    text-align: center;
+    font-family: 'Prata', sans-serif;
+}
+.about_info_item p{ 
+margin-top: 30px;
+
+}
+
+.about_info_item p i{
+    color:blue;
+    
+}
+/*----------------about_skills---------------------------*/
+.about_skill h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.about_skill .progress{
+    margin-bottom: 15px;
+}
+/*contack me css----------------------------------*/
+.contact_me{
+        margin-top: 60px;
+}
+.contact_me_title h1{
+        font-size: 40px;
+        text-align: center;
+        text-shadow: 1px 11px 5px rgb(47, 136, 151);
+        font-family: 'Pattaya', sans-serif;
+}
+.contact_me_title p{
+        text-align: center;
+        font-family: 'Prata', sans-serif;
+    }
+
+.social_links{
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(166, 180, 180);
+    background-color: rgb(163, 209, 221);
+    padding-top: 50px;
+    border-radius: 10px;
+}
+.social_icons h4{
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    margin-right: 15px;
+}
+.social_icons h4 a{
+    color:rgb(31, 29, 28);
+    display: block;
+}
+.social_icons .f{
+    color:rgb(226, 140, 34);
+}
+.social_icons h4:hover{
+    color: rgb(172, 102, 18);
+    background-color: rgb(108, 166, 180);
+}
+.social_icons h4 a:hover{
+    color:orange;
+}
+.contact_me_form{
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgb(166, 180, 180);
+    background-color: rgb(163, 209, 221);
+    text-align: center;
+    border-radius: 10px;
+}
+.contact_me_form table{
+    text-align: center;
+}
+.contact_me_form input{
+    border-color: aliceblue;
+    margin: auto;
+}
+.contact_me_form input:focus{
+    font-size: 18px;
+    color:#000;
+    background-color: lightskyblue;
+    font-weight: 500;
+    box-shadow: 0 0 10px black;
+}
+.contact_me_form textarea:focus{
+    font-size: 18px;
+    color:black;
+    background-color: lightskyblue;
+    font-weight: 500;
+    box-shadow: 0 0 10px #000;
+}
+
+/*---------------form css------------------*/
+.contact_me_email{
+    position: relative;
+    margin-top: 40px;
+    padding-top: 20px;
+    box-shadow: 0 0 20px rgb(166, 180, 180);
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+.contact_me_call{
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(166, 180, 180);
+    background-color:#fff;
+}
+.contact_me_email h4{
+    font-size: 30px;
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(57, 218, 129);
+   
+}
+.contact_me_call h4{
+    font-size: 30px;
+    font-family: 'Pattaya', sans-serif;
+    color: rgb(57, 218, 129);
+   
+}
+.contact_me_call h5 i{
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    margin-right: 15px;
+}
+.contact_me_email h5 i{
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.contact_me_email h5 i:hover{
+    color: rgb(172, 102, 18);
+    background-color: rgb(108, 166, 180);
+}
+
+.contact_me_call h5 i:hover{
+    color: rgb(172, 102, 18);
+    background-color: rgb(108, 166, 180);
+}
+/*------------------------------------------------Footer section----------------------------*/
+.footer_content{
+    margin-top: 100px;
+    border: solid;
+    height: 350px;
+    background-color:rgb(19, 18, 18);
+    text-align: center;
+}
+.footer_content h1{
+    padding-top: 40px;
+    /*font-family: 'Prata', serif;*/
+    font-family: 'Pattaya', sans-serif;
+    color: #fff;
+}
+.footer_content p{
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+.footer_icons h4{
+    border-width: 1px;
+    display: inline-block;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+    background-color: orange;
+    margin-right: 10px;
+}
+.footer_icons h4 i{
+    color: #fff;
+}
+
+.copyright{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700px;
+    font-style: italic;
+    color: #fff;
+}
